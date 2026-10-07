@@ -11,7 +11,7 @@ pack() {
     mkdir -p dist/rose-pine"$theme"
 
     mv dist/rose-pine"$theme".json dist/rose-pine"$theme"/manifest.json
-    mv icons/rose-pine"$theme".png dist/rose-pine"$theme"/icon.png
+    cp icons/rose-pine"$theme".png dist/rose-pine"$theme"/icon.png
 
     zip -j dist/zip/rose-pine"$theme".zip dist/rose-pine"$theme"/*
 }
