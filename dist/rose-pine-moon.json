@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "$name",
+  "name": "Rosé Pine Moon",
   "version": "1.0",
   "browser_specific_settings": {
     "gecko": {
@@ -8,13 +8,13 @@
       "strict_min_version": "67.0"
     }
   },
-  "description": "$description",
+  "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
   "icons": {
     "16": "icon.png"
   },
   "theme": {
     "colors": {
-      "frame": "$base",
+      "frame": "#232136",
       "tab_text": "#797593",
       "tab_line": "#f75e54",
       "tab_loading": "#f75e54",

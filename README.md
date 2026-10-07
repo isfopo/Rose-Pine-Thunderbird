@@ -1,42 +1,40 @@
-# Rosé Pine Dawn theme for Thunderbird
-A beautiful Thunderbird theme inspired by the Rosé Pine Dawn color scheme. This theme brings the warm hues of a sunrise to your Thunderbird interface.
+<p align="center">
+    <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
+    <h2 align="center">Rosé Pine for Thunderbird</h2>
+</p>
 
-![Preview](https://github.com/MasterFallen/Rose-Pine-Dawn-Thunderbird/assets/46285502/2bdabf63-5e35-4da0-82bb-b48eb2183a7e)
-
-## Installation
-To install the Rose Pine Dawn Thunderbird theme, either look for it on [addons.thunderbird.net](https://addons.thunderbird.net/en-US/thunderbird/addon/rose-pine-dawn/) or follow these steps:
-
-1. Download the theme files from the release tab.
-2. Open Thunderbird and go to Add-ons.
-3. Click on the gear icon and select Install Add-on From File.
-4. Choose the downloaded theme files and click Open.
-5. The Rose Pine Dawn theme will be installed.
-
+<p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
 
 ## Usage
-Once installed, you can activate the Rose Pine Dawn theme by following these steps:
 
-1. Open Thunderbird and go to Add-ons.
-2. Find the Rose Pine Dawn theme in the list of installed add-ons.
-3. Click on the Enable button to activate the theme.
+1. Open App
+2. Under settings, import `rose-pine.theme`
+3. Select `Rosé Pine` from the themes dropdown
 
+## Gallery
 
-Enjoy the refreshing and elegant Rosé Pine Dawn color scheme in your Thunderbird interface! Feel free to contribute by submitting pull requests to enhance the color accuracy.
+### Rosé Pine
 
-## Screenshots
-Here is a screenshot of the Rose Pine Dawn Thunderbird theme in action:
+<img width="256" alt="Rosé Pine with App" src="https://github.com/user-attachments/assets/3d9df6a3-0ee3-43f2-b934-83cf8f2806c2" />
 
-![Screenshot](https://github.com/MasterFallen/Rose-Pine-Dawn-Thunderbird/assets/46285502/099d239c-3d0e-4499-9aa4-4218886a1d98)
+### Rosé Pine Moon
 
+<img width="256" alt="Rosé Pine Moon with App" src="https://github.com/user-attachments/assets/0acf279b-492c-4d75-acba-9de1d6cc8fcb" />
 
-## Feedback and Contributions
-Your feedback and contributions are valuable! Please submit any issues or suggestions through the GitHub repository's issue tracker to help us improve the Rose Pine Dawn Thunderbird theme.
+### Rosé Pine Dawn
 
-Let me know if there's anything else I can assist you with!
+<img width="256" alt="Rosé Pine Dawn with App" src="https://github.com/user-attachments/assets/fb1b1d16-55e8-45db-b388-7c25250b8022" />
 
-## License
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
+## Thanks to
 
----
+- [Isaac Poole](https://github.com/isfopo)
 
-*Note: The Rose Pine Dawn Thunderbird theme is a community-driven project and is not officially affiliated with the Rose Pine theme creators.
+## Contributing
+
+<!-- BLOOM_BUILD_START -->
+This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
+
+```sh
+bloom build manifest.json --output dist --prefix $ --format hex
+```
+<!-- BLOOM_BUILD_END -->
