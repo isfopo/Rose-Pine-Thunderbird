@@ -35,6 +35,6 @@
 This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
 
 ```sh
-bloom build manifest.json --output dist --prefix $ --format hex
+bloom build manifest.template.json --output dist --prefix $ --format hex
 ```
 <!-- BLOOM_BUILD_END -->
