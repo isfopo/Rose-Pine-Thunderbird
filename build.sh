@@ -13,10 +13,10 @@ pack() {
     mv dist/rose-pine"$theme".json dist/rose-pine"$theme"/manifest.json
     cp icons/rose-pine"$theme".png dist/rose-pine"$theme"/icon.png
 
-    zip -j dist/zip/rose-pine"$theme".zip dist/rose-pine"$theme"/*
-}
+    zip -j dist/rose-pine"$theme".zip dist/rose-pine"$theme"/*
 
-mkdir -p dist/zip
+    rm -rf dist/rose-pine"$theme"
+}
 
 pack;
 pack "-moon"
